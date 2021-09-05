@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CarInfoFromDatabase.Data.Root>
+
+
+
+
+<h4 style="color:blue">@Model.Count() Best Car</h4>
+
+
+<div class="row">
+
+    @foreach (var car in Model)
+    {
+        <div class="col-md-6">
+            <div class="card card-body bg-light">
+                @*<a href="@car.assets[0].url">
+                    <img src="@car.assets[0].url" />
+                </a>*@
+                <ul class="product-props">
+
+                    <li>
+                        Name: @car.Name
+                    </li>
+                    <li>
+                        Year: @car.Year
+                    </li>
+                    <li>
+                        Mile Per Gallon: @car.Miles_per_Gallon
+                    </li>
+                    <li>
+                        Horse Power: @car.Horsepower
+                    </li>
+                    <li>
+                        Origin: @car.Origin
+                    </li>
+                    <li>
+                        Weight in Lbs: @car.Weight_in_lbs
+                    </li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    }
+</div>

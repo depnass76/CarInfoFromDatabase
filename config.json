@@ -1,0 +1,23 @@
+﻿{
+  "Colors": {
+    "Favorite": "Bleu"
+  },
+  "ConnectionStrings": {
+    "CarsContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=CarsTreatDatabase;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
+  },
+  "Logginng": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+
+  "Token": {
+    "Key": "kfrjfkvjlkdjflsjlkjsfsadadpowqidwqpeooe",
+    "Issuer": "http://localhost:8888",
+    "Audience": "http://localhost:8888"
+  }
+}
+
+
+
